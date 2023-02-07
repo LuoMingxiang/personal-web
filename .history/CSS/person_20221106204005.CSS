@@ -1,0 +1,251 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "楷体";
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/2233娘.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main ul {
+    float: right;
+    list-style-type: none;
+    margin: 15px;
+
+}
+.nav a{
+    display: block;
+
+}
+.nav ul{
+    display: none;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .6s ease;
+    border-radius: 20px;
+
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1,
+h1 span {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+}
+
+.left-group,
+.right-group {
+    width: 200px;
+    background-color: #F6F4E8;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.mid-group {
+    flex: 1;
+}
+
+.container {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    top: 100px;
+    bottom: 100px;
+}
+
+.personal {
+    display: list-item;
+    text-align: center;
+}
+
+.personal a {
+    color: #000;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce_item {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.introduce_item_img1 {
+    margin-left: 40px;
+    height: 600px;
+}
+
+.introduce_item_img2 {
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 600px;
+}
+
+.introduce_item_img3 {
+    height: 600px;
+
+}
+
+.introduce_item_title1 {
+    width: 300px;
+    margin-left: 100px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+
+.introduce_item_title2 {
+    flex: 1;
+    align-self: center;
+    line-height: 36px;
+}
+
+.introduce_item_title3 {
+    width: 300px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+
+.photo_item {
+    display: flex;
+    flex: 1;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo_item_img {
+    margin-left: auto;
+    margin-right: 50px;
+    float: left;
+    height: 500px;
+}
+
+.board{
+    padding-top: 1em;
+    height: 200px;
+    text-align: center;
+}
+
+.board textarea{
+    font-size: 1.5em;
+    width: 300px;
+    height: 150px;
+    border: 3px ;
+    border-radius:20px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    background-color: #FDF5E6;
+    padding: 0.7em;
+    
+}
+.btn_fabu{
+    font-size: 2em;
+    border: 2px solid #3d649b;
+    border-radius:15px;
+    background-color: #cdd9e2;
+}
+.btn_fabu:hover{
+    cursor: pointer;
+    background-color: #718eb6;
+}
+.btn_fabu button{
+    padding-left: 10px;
+    /* background-color: #dbe0bf; */
+}
+.board ul li {
+    display:block;
+    width: 380px;
+    padding: 8px ;
+    background-color: #e8eccf;
+    border-radius:20px;
+    color: #454c3c;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.board ul li a{
+    float: right;
+    color: #1f1cc1;
+    padding: 0;
+}
+.board ul li button{
+    border-radius: 15px;
+    width: 42px;
+    height: 24.4px;
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: #d6793d;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.board ul li button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+.slider-bar{
+    top: 900px;
+    width: 90px;
+    height: 320px;
+    position: absolute;
+    border-radius: 50px;
+    background:#8cc7b5;
+    left: 94%;
+    opacity:90%;
+    border:solid #000;
+    font-weight: bolder;
+}
+.slider-bar a{
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 999;
+}
+.slider-bar li{
+    margin-top: 2em;
+}
+.feedback {
+width: 50px;
+background-color: pink;
+        
+}

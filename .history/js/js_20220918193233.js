@@ -1,0 +1,4 @@
+var leftb
+for (; ;){
+
+}

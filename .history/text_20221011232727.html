@@ -1,0 +1,37 @@
+var str = 'acdaecad';
+
+var obj = {};
+
+for (var i = 0;i<str.length;i++){
+
+            if (obj[str.charAt(i)]){
+
+                obj[str.charAt(i)]++;
+
+            }
+
+            else {
+
+                obj[str.charAt(i)] = 1;
+
+            }
+
+        }
+
+var val1;
+
+var val2 = 0;
+
+for (var k in obj) {
+
+            if (obj[k] > val2){
+
+                val2 = obj[k];
+
+                val1 = k;
+
+            }
+
+}
+
+console.log(val1);

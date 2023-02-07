@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var str = 'acdaecad';
+
+        var obj = {};
+
+        for (var i = 0; i < str.length; i++) {
+
+            if (obj[str.charAt(i)]) {
+
+                obj[str.charAt(i)]++;
+
+            }
+
+            else {
+
+                obj[str.charAt(i)] = 1;
+
+            }
+
+        }
+
+        var val1;
+
+        var val2 = 0;
+
+        for (var k in obj) {
+
+            if (obj[k] > val2) {
+
+                val2 = obj[k];
+
+                val1 = k;
+
+            }
+
+        }
+
+        console.log(val1);
+        console.log(obj[str.charAt(3)]);
+        obj[str.charAt(5)] = 9;
+        console.log(obj[str.charAt()]);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

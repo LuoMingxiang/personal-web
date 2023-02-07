@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "楷体";
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/2233娘.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ul{
+    float: right;
+    list-style-type: none;
+    margin: 15px;
+} */
+
+.main ul {
+    float: right;
+    list-style-type: none;
+    margin: 15px;
+
+}
+.nav a{
+    display: block;
+
+}
+.nav ul{
+    display: none;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .6s ease;
+    border-radius: 20px;
+
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1,
+h1 span {
+    color: #fff;
+    font-size: 70px;
+    font-family: Century Gothic;
+}
+
+.left-group,
+.right-group {
+    width: 200px;
+    background-color: #F6F4E8;
+    text-align: center;
+}
+
+.mid-group {
+    flex: 1;
+}
+
+.container {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    top: 100px;
+    bottom: 100px;
+}
+
+.personal {
+    display: list-item;
+    text-align: center;
+}
+
+.personal a {
+    color: #000;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce_item {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.introduce_item_img1 {
+    margin-left: 40px;
+    height: 600px;
+}
+
+.introduce_item_img2 {
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 600px;
+}
+
+.introduce_item_img3 {
+    height: 600px;
+
+}
+
+.introduce_item_title1 {
+    width: 300px;
+    margin-left: 100px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+
+.introduce_item_title2 {
+    flex: 1;
+    align-self: center;
+    line-height: 36px;
+}
+
+.introduce_item_title3 {
+    width: 300px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+
+.photo_item {
+    display: flex;
+    flex: 1;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo_item_img {
+    margin-left: auto;
+    margin-right: 50px;
+    float: left;
+    height: 500px;
+}
+
+.board{
+    padding-top: 1em;
+    /* text-align: center; */
+    position: relative;
+    height: 200px;
+    bo
+}
+
+.board textarea{
+    font-size: 1.5em;
+    width: 200px;
+    height: 100px;
+    border: 2px solid pink;
+    border-radius:16px;
+    outline: none;
+    resize: none;
+    margin: 100px;
+    overflow: hidden;
+}
+.btn_fabu{
+    font-size: 2em;
+    border-radius:15px;
+
+}
+.btn_fabu:hover{
+    cursor: pointer;
+}
+.btn_fabu button{
+    float: left;
+    padding-left: 10px;
+}
